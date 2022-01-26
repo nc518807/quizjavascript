@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'josefin Sans',sans-serif;
+    font-weight: 400;
+}
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:#dff9fb;
+}
+.inner{
+
+    width: 80vh;
+    background-color: #ffff;
+    padding:5rem 10rem ;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 0.7rem rgba(0,0,0,0.4);
+}
+.inner h1{
+  font-size: 2rem;  
+  margin-top:1rem 0 4rem 0;
+  font-weight: 400;
+
+
+}
+.inner ul {
+    display: block;
+    margin: 1rem ;
+    list-style: none;
+
+}
+ 
+.inner li{
+    margin: 2rem;
+    
+    font-size: 1.5rem;
+}
+#submit,.btn{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #ffff;
+   text-transform: uppercase;
+   margin-top: 4rem;
+   background-color: green;
+}
+
+#submit:hover{
+    background-color: indianred;
+}
+
+#showscore{
+   background-color: #dff9fb;
+    margin-top: 3rem;
+    padding:2rem 3rem ;
+}
+.scoreArea{
+    display: none;
+}
